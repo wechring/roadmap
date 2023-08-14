@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" context="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Wech Ring</title>
+    <link rel="icon" type="image/jpeg" href="imgs/Logo.jpeg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background-color: #35424a;
+            color: white;
+            align-items: center;
+            text-align: center;
+            padding: 15px;
+            display: flex;
+            left:600px; 
+            font-family: "Lucida Console", "Courier New", monospace;
+        }
+
+        .container {
+            display: flex;
+            margin: 3px;
+            align-items: center;
+            position:absolute; 
+            left:600px; 
+            top:350px;
+        }
+
+        .container2 {
+            display: flex;
+            align-items: center;
+            position:absolute; 
+            left:600px; 
+            top: 1300px;
+        }
+
+        .container3 {
+            display: flex;
+            align-items: center;
+            position:absolute; 
+            left:20px; 
+            top: 1300px;
+            margin-left: 30px;
+        }
+
+        .circle {
+        border: 3px solid black;
+        height: 25px;
+        width: 25px;
+        background-color: #f4f4f4;
+        border-radius: 50%;
+        display: inline-block;
+        }
+
+        .curved {
+            background: purple;
+            color: white;
+            text-align: center;
+        }
+
+        .line {
+        height: 930px;
+        width: 25px;
+        background-color: pink;
+        border-radius: 0%;
+
+        }
+
+        a { 
+            display: inline-block;
+            position: relative;
+            color: white; 
+            text-decoration: none;
+        }
+
+        a:after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            transform: scaleX(0);
+            height: 2px;
+            bottom: 0;
+            left: 0;
+            background-color: white;
+            transform-origin: bottom right;
+            transition: transform 0.4s ease-out;
+        }
+
+        a:hover:after {
+            transform: scaleX(1);
+            transform-origin: bottom left;
+            
+        }
+
+        img {
+            border: 5px solid black;
+            color: black; 
+            position:absolute; 
+            left:240px; 
+            top:200px;
+        }
+
+        .bigspace {
+        height: 5px;
+        width: 200px;
+        background-color:  #35424a;
+        border-radius: 50%;
+        display: inline-block;
+        }
+
+        h1 {
+            font-family: "Lucida Console", "Courier New", monospace;
+            color: white
+            margin-bottom: 1rem;
+        }
+
+        .space {
+        height: 5px;
+        width: 30px;
+        background-color:  #35424a;
+        border-radius: 50%;
+        display: inline-block;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="bigspace"></div>
+        <div class="space"></div>
+        <h1>Wech Ring</h1>
+        <div class="bigspace"></div>
+        <div class="bigspace"></div>
+        <div class="space"></div>
+        <a href="main.html" class="links">HOME</a>
+        <div class="space"></div>
+        <a href="roadmap.html" class="links">ROADMAP</a>
+        <div class="space"></div>
+        <a href="projects.html" class="links">PROJECTS</a>
+        <div class="space"></div>
+        <a href="contact.html" class="links">CONTACT-ME</a>
+    </header>
+    
+
+
+    <div style = "position:absolute; top:390px; left: 603px">
+        <div class="line"></div>
+    </div>
+
+    <div class="container">
+        <div class="circle"></div>
+        <div class="space"></div>
+        <div class="space"></div>
+        <h2>Hi, My name is Wech</h2>
+        <h1>🙋🏿</h1>
+    </div>
+
+    <div class="container2">
+        <div class="circle"></div>
+    </div>
+
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -300 1440 620"><path fill="#a2d9ff" fill-opacity="1" d="M0,320L26.7,293.3C53.3,267,107,213,160,186.7C213.3,160,267,160,320,144C373.3,128,427,96,480,112C533.3,128,587,192,640,202.7C693.3,213,747,171,800,170.7C853.3,171,907,213,960,202.7C1013.3,192,1067,128,1120,90.7C1173.3,53,1227,43,1280,42.7C1333.3,43,1387,53,1413,58.7L1440,64L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 520"><path fill="#a2d9ff" fill-opacity="1" d="M0,320L26.7,293.3C53.3,267,107,213,160,186.7C213.3,160,267,160,320,144C373.3,128,427,96,480,112C533.3,128,587,192,640,202.7C693.3,213,747,171,800,170.7C853.3,171,907,213,960,202.7C1013.3,192,1067,128,1120,90.7C1173.3,53,1227,43,1280,42.7C1333.3,43,1387,53,1413,58.7L1440,64L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path></svg>
+    </div>
+
+
+
+    <div class="container3">
+    <a href="https://github.com/wechring"><img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub Icon"  width="40px" height="40px"></a>
+    <div class="space"></div>
+    <a href="https://www.linkedin.com/in/wech-ring-597637254/"><img src="https://cdn-icons-png.flaticon.com/512/61/61109.png"  alt="LinkedIn Icon" width="40px" height="40px"></a>
+    </div>  
+
+
+</div>
+</body>
+</html>
+ 
+
